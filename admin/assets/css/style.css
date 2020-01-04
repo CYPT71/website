@@ -1,0 +1,53 @@
+body {
+    background-size: cover;
+    background: url("../img/background.jpg") no-repeat top fixed;
+}
+
+h1, h2, h3, h5, h6{
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px
+}
+
+
+
+
+.footer-fixed {
+    position: fixed;
+    bottom: 100;
+    width: 100%;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#intro {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#about-us .card img {
+    height: 60px;
+}
+
+#equip img {
+    border-radius: 50%;
+}
+
+#equip .card,
+#about-us .card {
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
